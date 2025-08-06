@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {% block title %}Core Tracker{% endblock %}
+            <link rel="stylesheet"href="{{ url_for('static', filename='style.css') }}">
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1> Core Tracker App</h1>
+            <hr>
+        </header>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2025 Core Tracker</p>
+        </footer>
+    </body>
+
+</html>

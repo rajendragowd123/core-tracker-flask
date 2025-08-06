@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Core Tracker</title>
-    </head>
-    <body>
-        <h1>Welcome to Core Tracker</h1>
-        <p>This is our Flask project homepage. </p>
-    </body>
-</html>
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h2>Welcome to the Home Page</h2>
+    <p>This is your first inherited template!</p>
+{% endblock %}
